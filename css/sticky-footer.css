@@ -1,0 +1,110 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  /* margin-bottom: 10000px; */
+}
+.footer {
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /* height: 184px; */
+  padding:20px;
+  background-color: #302F30;
+  /* vertical-align: center; */
+  /* text-align: center; */
+}
+
+.footer .wlogo{
+  margin-top: 2px;
+  width:132px;
+  /* margin-left: 20%; */
+}
+
+.footer .ilogo{
+  margin-top: 2px;
+  width:175px;
+}
+
+.footer h3{
+  color:#F5A623;
+}
+.footer .footertext{
+  text-align: right;
+  /* margin-right: 15%; */
+  font-family: 'Cabin', sans-serif;
+  font-size: 125%;
+  color:white;
+}
+.footerblock{
+  /* display: inline-block; */
+  /* padding-left: 250px; */
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  float: none;
+  width: 50%;
+  padding-left:10%;
+}
+.footerblock p{
+  padding-right:15%;
+  margin-left: 0;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.containerfoot {
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  vertical-align: middle;
+  /* max-width: 680px; */
+  padding: 0 15px;
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label{
+  text-align:center !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .footerblock{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width:100%;
+    text-align: center;
+    display:inline-block;
+    padding-left: 0;
+  }
+  .containerfoot{
+    text-align: center;
+    display: inline-block;
+  }
+  .footer .wlogo{
+    margin-top: 2px;
+    width:100px;
+    /* margin-left: 20%; */
+  }
+
+  .footer .ilogo{
+    margin-top: 2px;
+    width:143px;
+  }
+  .footer .footertext{
+    text-align: center;
+  }
+  .footerblock p{
+    padding-right:0;
+    padding-left: 0;
+  }
+}
+/* .containerfoot .text-muted {
+  margin: 20px 0;
+} */
