@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Research</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="../static/style.css">-->
+    <link rel="stylesheet" href="../static/css/min.style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="../static/jquery-3.3.1.min.js"></script>
+    <script src="../static/popper.min.js"></script>
+    <script src="../static/bootstrap.min.js"></script>
+</head>
+<body onload="funcAll()">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
+        <a class="navbar-brand" href="../index.html"><img src="../static/logo.png" class="logo"></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="sr-only">Toggle navigation</span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#research">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../docs/team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../docs/joinus.html">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <div class="container-fluid" id="research">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="researchDiv">
+                    <div class="researchCenter">
+                        Research
+                    </div>
+                </div>
+                <div class="researchDivSmall">
+                    <div class="researchCenterSmall">
+                        Research
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="text-align:center;">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 centering">
+                    <div class="row">
+
+                        <div class="keywordDiv">
+                            <H5 style="text-align:left; font-size: 1rem; font-weight: 700;">FILTER</H5>
+                            <!--<br>-->
+                            <span class="keywords" onclick="funcAll()" id="allbtn">All</span>
+                            <span class="keywords" onclick="novelInteractions()" id="novelbtn">Novel Interactions</span>
+                            <span class="keywords" onclick="toolkits()" id="toolkitsbtn">Toolkits</span>
+                            <span class="keywords" onclick="wearables()" id="wearablesbtn">Wearables</span>
+                            <span class="keywords" onclick="intelligentAgents()" id="intelligentbtn">Intelligent
+                                    Agents</span>
+                            <span class="keywords" onclick="animatronics()" id="animatronicsbtn">Animatronics</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-0 novel">
+                            <div class="card mx-auto researchcard padding-0"
+                                 style="width: 100%; text-align: center; align: center;">
+                                <div class="module" id="novel-interactions">
+                                    <header>
+                                        <h1>
+                                            Gehna
+                                        </h1>
+                                    </header>
+                                </div>
+                                <!--<div class="researchimg">-->
+                                <!--<img src="../static/placeholder.jpg" alt="..." class="thumbnail">-->
+                                <!--</div>-->
+                                <!--<div class="card-body">-->
+                                <!--&lt;!&ndash;<h5 class="card-title projectName"><b>Gehna</b></h5>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<p class="card-text memberField"></p>&ndash;&gt;-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-0 toolkit">
+                            <div class="card mx-auto researchcard padding-0"
+                                 style="width: 100%; text-align: center; align: center;">
+                                <div class="module" id="mediated-reality">
+                                    <header>
+                                        <h1>
+                                            LPVR
+                                        </h1>
+                                    </header>
+                                </div>
+                                <!--<div class="card-body">-->
+                                <!--&lt;!&ndash;<h5 class="card-title projectName"><b>Gehna</b></h5>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<p class="card-text projectDetails"></p>&ndash;&gt;-->
+                                <!--</div>-->
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-0 toolkit">
+                                <div class="card mx-auto researchcard padding-0"
+                                     style="width: 100%; text-align: center; align: center;">
+                                    <div class="module" id="mediated-reality">
+                                        <header>
+                                            <h1>
+                                                LPVR
+                                            </h1>
+                                        </header>
+                                    </div>
+                                <!--<div class="card-body">-->
+                                <!--&lt;!&ndash;<h5 class="card-title projectName"><b>Gehna</b></h5>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<p class="card-text projectDetails"></p>&ndash;&gt;-->
+                                <!--</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4 mt-5" style="background-color: rgb(240,240,240); position: relative; z-index: 1; margin-top: 5rem;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row text-center text-md-left pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <!--<h6 class="text-uppercase mb-4 font-weight-bold">Weave Lab</h6>-->
+                <img src="../static/logo.png" style="width: 5.5rem;">
+                <img src="../static/iiitd-greyscale.png" style="width: 10rem;">
+                <p style="text-align: center; font-size: 0.7rem;" >&copy; 2019 Weave Lab</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="offset-col-md-2 col-lg-2 col-xl-2 mx-auto">
+                <!--<h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>-->
+                <p class="footer-link">
+                    <a href="#about">About</a>
+                </p>
+                <p class="footer-link">
+                    <a href="#research">Research</a>
+                </p>
+                <p class="footer-link">
+                    <a href="#contact">Contact</a>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <!--<h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>-->
+                <p class="footer-link">
+
+                    <a href="./team.html">Team</a>
+                </p>
+                <p class="footer-link">
+                    <a href="./joinus.html">Join Us</a>
+                </p>
+
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+
+        </div>
+
+        <!-- Grid row -->
+        <div class="row">
+            <div class="offset-lg-4 col-lg-4">
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+
+<script>
+    function funcAll() {
+        var btn = document.getElementById('allbtn').style.cssText = 'color: #F5A623;';
+        // console.log('all function called');
+        var projects = document.getElementsByClassName("novel");
+        // console.log('projects defined');
+        var btns = document.querySelectorAll("#novelbtn, #intelligentbtn, #toolkitsbtn, #wearablesbtn, #animatronicsbtn");
+        // console.log('buttons defined');
+        console.log(projects);
+        var j;
+        for (j = 0; j < projects.length; j++) {
+            projects[j].style.cssText = 'display: block;';
+            console.log('display blocked');
+        }
+        greyify(btns);
+    }
+
+    function novelInteractions() {
+        var btn = document.getElementById('novelbtn').style.cssText = 'color: #F5A623;';
+        // console.log('projects with id novel hidden')
+        var projects = document.getElementsByClassName("novel");
+        var btns = document.querySelectorAll("#allbtn, #intelligentbtn, #toolkitsbtn, #wearablesbtn, #animatronicsbtn");
+        hideProjects(projects);
+        greyify(btns);
+    }
+
+    function toolkits() {
+        var btn = document.getElementById('toolkitsbtn').style.cssText = 'color: #F5A623;';
+        // console.log('projects with id novel hidden')
+        var projects = document.getElementsByClassName("novel");
+        var btns = document.querySelectorAll("#allbtn, #intelligentbtn, #novelbtn, #wearablesbtn, #animatronicsbtn");
+        hideProjects(projects);
+        greyify(btns);
+    }
+
+    function wearables() {
+        var btn = document.getElementById('wearablesbtn').style.cssText = 'color: #F5A623;';
+        // console.log('projects with id novel hidden')
+        var projects = document.getElementsByClassName("novel");
+        var btns = document.querySelectorAll("#allbtn, #intelligentbtn, #novelbtn, #toolkitsbtn, #animatronicsbtn");
+        hideProjects(projects);
+        greyify(btns);
+    }
+
+    function intelligentAgents() {
+        var btn = document.getElementById('intelligentbtn').style.cssText = 'color: #F5A623;';
+        // console.log('projects with id novel hidden')
+        var projects = document.getElementsByClassName("novel");
+        var btns = document.querySelectorAll("#allbtn, #novelbtn, #toolkitsbtn, #wearablesbtn, #animatronicsbtn");
+        hideProjects(projects);
+        greyify(btns);
+    }
+
+    function animatronics() {
+        var btn = document.getElementById('animatronicsbtn').style.cssText = 'color: #F5A623;';
+        // console.log('projects with id novel hidden')
+        var projects = document.getElementsByClassName("novel");
+        var btns = document.querySelectorAll("#allbtn, #novelbtn, #toolkitsbtn, #wearablesbtn, #intelligentbtn");
+        hideProjects(projects);
+        greyify(btns);
+    }
+
+    function greyify(names) {
+        var j;
+        for (j = 0; j < names.length; j++) {
+            names[j].style.cssText = 'color: black;';
+        }
+    }
+
+    function hideProjects(proj) {
+        var i;
+        for (i = 0; i < proj.length; i++) {
+            proj[i].style.cssText = 'display: none;';
+        }
+    }
+
+</script>
+</body>
+</html>
